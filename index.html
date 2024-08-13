@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./Css/style.css" />
+    <link rel="stylesheet" href="./Css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <main>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div
+          class="container-fluid"
+          style="background-color: rgb(129, 221, 251)"
+        >
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Post Id</label>
+            <input
+              type="text"
+              class="form-control"
+              id="post-id"
+              aria-describedby="emailHelp"
+              placeholder="Enter Post Id"
+            />
+            <!-- <div id="emailHelp" class="form-text">
+              We'll never share your email with anyone else.
+            </div> -->
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Post Title</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="post-title"
+              placeholder="Enter Title"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"
+              >Post Content</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="post-content"
+              placeholder="Enter Your Content"
+            />
+          </div>
+         
+          </div>
+          <button type="button" class="btn btn-primary" id="savepost">
+            Save Post
+          </button>
+          <button type="button" class="btn btn-secondary" id="updatepost">
+            Update Post
+          </button>
+          <button type="button" class="btn btn-success" id="deletepost">Delete Post</button>
+          <button type="button" class="btn btn-danger" id="getAllpost">Get All Post</button>
+          <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+        </form>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script src="./Js/bootstrap.min.js"></script>
+    <script src="./Js/jquery-3.7.1.min.js"></script>
+    <script src="./Js/main.js"></script>
+  </body>
+</html>
